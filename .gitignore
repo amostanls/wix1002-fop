@@ -1,2 +1,14 @@
 # Lab Documents
 files/
+
+# lab01
+lab01/.idea
+lab01/.out
+lab01/*.iml
+lab01/META-INF
+
+# lab02
+lab02/.idea
+lab02/.out
+lab02/*.iml
+
