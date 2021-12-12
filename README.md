@@ -1,2 +1,2 @@
-# wix1002_fop
+# wix1002-fop
 Fundamentals of Programming
