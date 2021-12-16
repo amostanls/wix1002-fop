@@ -1,7 +1,7 @@
 public class l6q2 {
     public static void main(String[] args) {
         // triangle
-        int height_triangle = 4; // height of triangle
+        int height_triangle = 10; // height of triangle
         for(int i=0; i<height_triangle; i++) {
             int spaces = height_triangle-1 - i;
             multiPrint(spaces, ' ');
@@ -23,7 +23,7 @@ public class l6q2 {
             multiPrint(2*i+1, '*');
             System.out.println();
         }
-        // lower traingle of diamond
+        // lower triangle of diamond
         int lower = height_diamond-upper;
         for(int i=lower-1; i>=0; i--) {
             int spaces = upper-1 - i;

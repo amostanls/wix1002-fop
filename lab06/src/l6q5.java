@@ -13,12 +13,20 @@ public class l6q5 {
             System.out.print(x+" x "+y+" = ");
             int res = in.nextInt();
             if(res<0)break;
-            else score += (check(x,y,res)==true?1:0);
+//            else score += (check(x,y,res)==true?1:0);
+            else {
+                if(check(x,y,res)==true)
+                    score+=1;
+                else
+                    score+=0;
+            }
         }
         System.out.println("Your Score is "+score);
     }
 
     public static boolean check(int x, int y, int z) {
-        return x*y==z;
+//        return x*y==z;
+        if(x*y==z)return true;
+        else return false;
     }
 }
