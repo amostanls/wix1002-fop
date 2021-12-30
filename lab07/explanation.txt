@@ -1,0 +1,86 @@
+5 = 101
+7 = 111
+134 = "10000110"
+
+val >> i 
+&1
+
+0 & 1 = 0
+1 & 1 = 1
+
+i=4, val>>i = 1000
+x & 1 = 0 or 1
+
+12345678
+--------
+10000110  // i = 0
+ 1000011   // i = 1
+  100001    // i = 2
+   10000     // i = 3
+    1000      // i = 4
+     100       // i = 5
+      10        // i = 6
+       1         // i = 7
+
+10000110
+00000001
+--------
+00000000
+
+a+=
+
+0011
+0101&
+----
+0001
+
+012345678901234567890123
+100001101000011010000110
+substring(0,8)= "10000110"
+substring(3,5)= "00"
+
+i  i*8 (i+1)*8
+0   0     8     [0,7]
+1   8     16     [8,15]
+...
+
+
+"abc\nxyz\nbb1029"
+{"abc","xyz","bb1029"}
+
+"XYZ"   0 
+"Amos"  1
+"John"  2
+
+"Amos"  1
+"John"  2
+"XYZ"   0
+
+
+0 1 2
+1st iteration of bubble sort:
+1st comparision:
+cur = 0, nxt = 1
+"XYZ" and "Amos"  
+0 1 2 -> 1 0 2
+
+2nd comparision:
+cur = 0, nxt = 2
+"XYZ" and "John"
+1 0 2 -> 1 2 0
+
+2nd iteration of bubble sort:
+1st comparision:
+cur = 1, nxt = 2
+"Amos" and "John"
+
+2nd comparision:
+cur = 2, nxt = 0
+"John" and "XYZ"
+
+0 1 2 -> 1 2 0
+
+i = 0, cur = 1 "Amos"
+i = 1, cur = 2 "John"
+i = 2, cur = 0 "XYZ" 
+
